@@ -1,0 +1,25 @@
+.full{
+    display: none;
+}
+.mini{
+    display: block;
+}
+.buttonMenu{
+    background-color: transparent;
+    color: white;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 893px) {
+    .full{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0 20px;
+    }
+    .mini{
+        display: none;
+    }
+
+}

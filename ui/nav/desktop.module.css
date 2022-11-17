@@ -1,0 +1,20 @@
+.desktop{
+    display: none;
+}
+.link{
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+    color: white;
+}
+.logo{
+    min-width: 100px;
+}
+@media screen and (min-width: 515px) {
+    .desktop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0 20px;
+    }
+}
